@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css">
+    <title>Aplicación Multifuncional</title>
+</head>
+
+<body>
+    <header>
+        <img src="assets/logo.png" alt="Logo" class="logo" id="logo">
+        <nav>
+            <button onclick="nuevoProyecto()">Nuevo Proyecto</button>
+            <button onclick="abrirProyecto()">Cargar Proyecto</button>
+            <button onclick="explorarEjemplos()">Explorar Ejemplos</button>
+            <button onclick="toggleTheme()">Cambiar Tema</button>
+        </nav>
+    </header>
+    <main>
+        <div id="carga-animada">
+            <p>Preparando tu espacio para innovar...</p>
+            <div class="spinner"></div>
+        </div>
+        <div id="zona-trabajo">
+            <!-- Espacio dinámico para proyectos -->
+        </div>
+        <div id="panel-resultados">
+            <!-- Resultados en tiempo real -->
+        </div>
+    </main>
+    <footer>
+        <p>© 2023 Mi Aplicación</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
